@@ -1,29 +1,25 @@
 ---
-title: "Untitled"
-output: html_document
-date: "2025-08-28"
+title: "Jana Kassem"
+image: "jana.jpeg"
+links:
+  - label: GitHub
+    url: "https://github.com/Janakass3m"
+output:
+  postcards::jolla
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+I am currently a Statistics and Data Science student at The University of Texas at Austin. In my free time I enjoy listening to music. My favorite artists at the moment are Daniel Caesar, Malcolm Todd, and Giveon. Other than music, I also like to travel and explore new countries. I have been to 5 out of the 7 continents.
+
+<p>Favorite Shows:</p>
+<ul style="list-style-position: inside; text-align: left; display: inline-block;">
+  <li>The Good Place</li>
+  <li>Community</li>
+  <li>Brooklyn 99</li>
+</ul>
+
+Here is my [GitHub profile](https://github.com/Janakass3m)
+
+
+```{r echo=FALSE}
+cat(sprintf("Built on: %s", format(Sys.time(), tz = "America/Chicago")))
 ```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
